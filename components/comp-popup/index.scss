@@ -1,0 +1,47 @@
+.comp-popup{
+	position: relative;
+	text-align: center;
+	.tips{
+		width: 100%;
+	}
+	.content-box{
+		height: 803rpx;
+		border-radius: 30rpx;
+		overflow: hidden;
+		background-color: #fff;
+	}
+	.close-box{
+		padding: 30rpx;
+		margin-top: 30rpx;
+	}
+	.popup_close{
+		width: 60rpx;
+	}
+	.title{
+		height: 40rpx;
+		font-size: 34rpx;
+		margin: 50rpx 0 30rpx;
+		font-weight: 600;
+		color: #141D3C;
+	}
+	.subtitle{
+		padding: 0 60rpx;
+		height: 140rpx;
+		font-size: 26rpx;
+		line-height: 50rpx;
+		font-weight: 400;
+		color: #141D3C;
+	}
+	.qrocde-img{
+		width: 253rpx;
+	}
+	.fadein{ 
+	 transition: all 1s;  
+	 opacity: 1;
+	}
+	.success-btn{
+		width: 458rpx;
+		margin-top: 100rpx;
+	}
+}
+
